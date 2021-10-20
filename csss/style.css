@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/blackboard.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.clearfix ul{
+    padding: 0 320px;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: left;
+    margin-top: 35px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+.table{
+    margin-left:255px;
+}
+.search{
+    margin-left:250px;
+    margin-top:50px;
+    font-size: 3.2rem;
+}
+.name1{
+    font-size: 2rem;
+    padding-right: 3.8rem;
+}
+.name2{
+    height: 3rem;
+}
+.box1{
+    height: 2rem;
+    width: 25rem;
+    /* background-color: rgb(209, 209, 209); */
+    border-color: white;
+    padding-left: 8px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+.box2{
+    height: 2rem;
+    width: 25rem;
+    /* background-color: rgb(209, 209, 209); */
+    border-color: white;
+    padding-left: 8px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+.box1::placeholder, .box2::placeholder{
+    color: rgb(211, 209, 209);
+    font-weight: normal;
+}
+.standered1{
+    font-size: 2rem;
+   padding-right: 31px;
+}
+.standered2{
+    height: 5rem;
+ }
+.submit{
+    width:100px;
+    padding: 0.5rem;
+    margin-left:150px;
+    border-radius: 5px;
+    border: white;
+    color: #285936;
+}
+.submit:hover{
+    background-color: #762125;
+    color: white;
+}
+.main-content-header{
+    border-top: 2px solid white;
+}

@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/hand.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+
+.table{
+    margin-left:650px;
+}
+.search{
+    margin-left:670px;
+    margin-top:20px;
+}
+.name1{
+    padding-right: 5px;
+}
+.standered1{
+   padding-right: 15px;
+}
+.submit{
+    width:55px;
+}
+.main-content-header{
+    border-top: 2px solid white;
+}
+h2{
+    margin-top: 55px;
+    margin-left: 60px;
+    color: yellow;
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+}
+.table1{
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.table1 th{
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px black;
+    
+}
+.box{
+    height: 2rem;
+    width: 24rem;
+    margin-right: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.table2{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.table2 th{
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h3{
+    margin-left: 310px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+/* .table3{
+    margin-left: 70px;
+    margin-top: 4px;
+}
+.table3{
+    margin-top: 30px;
+    
+}
+.table3 th{
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px black;
+} */
+.table4{
+    margin-top: 96px;
+    margin-left: 650px;
+}
+.next_step{
+    width: 6rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+.next_step:hover{
+    background-color: #940205;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: white;
+}

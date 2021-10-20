@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/areroplane1.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+.signup-content-header{
+    width: 1360px;
+    position: absolute;
+    border-top: 2px solid #fff;
+}
+.signup_h1{
+    color:#fff;
+    margin-left: 550px;
+    font-family: fantasy;
+    margin-top: 20px;
+}
+.form1{
+    margin-top:20px;
+    margin-left:550px;
+    font-family:serif;
+    font-size: 25px;
+}
+.submit{
+    font-size: 18px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.submit:hover{
+    background-color: green;
+    color: red;
+}

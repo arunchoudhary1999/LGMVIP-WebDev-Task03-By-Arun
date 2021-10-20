@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/working.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+.fas{
+    color: #462523;
+    padding-right: 10px;
+}
+h1{
+    margin-left: 430px;
+    margin-right: 530px;
+    margin-top: 55px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: transparent;
+    /* transform: translate(-50%,-50%); */
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cd9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );   
+    -webkit-background-clip: text;
+}
+h3{
+    margin-bottom: 1rem;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.main-content-header{
+    border-top: 2px solid white;
+}
+
+.main-content-header a{
+    text-decoration: none;
+    color: #f6e27a;
+    text-shadow:  #462523 0px 0px 2px,   #462523 0px 0px 2px,   #462523 0px 0px 2px;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    text-decoration: none;
+    color: #cd9b51 ;   
+    /* text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px; */
+
+}
+
+h1:before,
+h1:after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.5s;
+}
+h1:before{
+    top: 15.9%;
+    left: 29.6%;
+    border-top: 2px solid #462523;
+    border-left: 2px solid #462523;
+}
+h1:after{
+    bottom: 71.8%;
+    right: 37.3%;
+    border-bottom: 2px solid #462523;
+    border-right: 2px solid #462523;
+}
+h1:hover:before,
+h1:hover:after{
+    opacity: 1;
+    width: 32.9%;
+    height: 11.8%;
+    border-radius: 5px;
+}

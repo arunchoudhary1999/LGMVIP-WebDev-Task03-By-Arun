@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/contact.jfif);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+
+.table{
+    margin-left:130px;
+}
+.search1{
+    margin-left: 250px;;
+    margin-top:80px;
+    color: white;
+    text-shadow:  #fff 0px 0px 1px,   #fff 0px 0px 1px,   #fff 0px 0px 1px;    
+}
+.search2{
+    margin-left: 60px;;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow:  #fff 0px 0px 1px,   #fff 0px 0px 1px,   #fff 0px 0px 1px;    
+}
+.tblheading{
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-bottom: 0.3rem;
+    padding-top: 1rem;
+}
+.tbldata{
+    width:500px;
+    height: 30px;
+    outline: none;
+    padding-left: 8px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: black;
+}
+.tbldata::placeholder, .tbldata1::placeholder{
+    color: white;
+}
+.tbldata1{
+    font-size: 0.9rem;
+    width:500px;
+    height: 70px;
+    padding-bottom: 15px;
+    outline: none;
+    padding-left: 8px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: black;
+    border-width: 2px;
+}
+.submit{
+    width:80px; 
+    height: 30px;  
+}
+.submit:hover{
+    background-color: #762125;
+    color: white;
+    font-size: 1rem;
+}
+.main-content-header{
+    border-top: 2px solid #fff;
+}

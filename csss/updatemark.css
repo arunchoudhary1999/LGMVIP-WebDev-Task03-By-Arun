@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../image/yellow.jpg);
+    height:700px;;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#000;
+    text-shadow:  #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.main-content-header{
+    border-top: 3px solid black;
+}
+
+.main-content-header a{
+    text-decoration: none;
+    color: red;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    color: rgb(3, 70, 8);
+}
+
+
+h1{
+    font-family: bold;
+    color: #0066ff;
+    padding-top: 2rem;
+    text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+    padding-bottom: 2rem;
+}
+.table1 th{
+    color: black;
+    font-size: 2rem;
+   
+    padding-left: 2rem;
+}
+.box{
+    height: 1.8rem;
+    width: 10rem;
+}
+.box::placeholder{
+    padding-left: 10px;
+}
+.submit{
+    width: 90px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: rgb(214, 214, 214);
+    margin-left: 618px;
+}
+.submit:hover{
+    background-color: #88bbf5;
+}
+.student_class{
+  padding-left: 50px;
+  color: black;
+ border-bottom: 3px solid black;
+  
+}
+
+.table1{
+    margin-left: 275px;  
+}
+.table2{
+    margin-left: 250px;
+    font-size: 30px;
+    margin-top:50px;
+    border-top:3px solid black;   
+}
+
+.student_class2{
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+/*border line*/
+.student_id{
+    border-left: 3px solid black;
+    padding-left: 15px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.student_edit{
+    border-right: 3px solid black;
+    color: black;
+    border-bottom: 3px solid black;
+    padding-left: 25px;
+    padding-right: 15px;
+    
+}

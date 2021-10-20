@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/scene.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: " ";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.index_h1{
+    color:#fff;
+    word-spacing: 5px;
+    font-size: 140%;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.login_heading{
+    color:#fff;
+    margin-left: 680px;
+    font-size: 4.8rem;
+    color: #940205;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: 2rem;   
+}
+.login-content-header{
+    border-top: 2px solid #fff;
+}
+.form1{
+    margin-left:680px;
+    color:white;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.form1 th{
+    color: white;
+	font-size: 30px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 1px 1px white;
+}
+.field1{
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 1.8rem;
+    background-color: rgb(238, 238, 229);
+    outline: none;
+    padding-left: 10px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+.field1::placeholder{
+    color: rgb(211, 209, 209);
+    font-weight: normal;
+}
+.field2{
+    height: 2rem;
+    width: 20rem;
+}
+.table{
+    padding-top: 20px;
+    padding-left:15px;
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    background: rgb(199, 199, 199);
+    border: 1px solid black;
+    color: black;
+    font-size: 0.9rem;
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+    margin-left:150px;
+}
+.submit:hover{
+    background: #940205;
+    color: white;
+    font-weight: bold;
+    /* font-size: 1.2rem; */
+}

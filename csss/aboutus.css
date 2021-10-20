@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/write.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: "";
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+
+.table{
+    margin-left:130px;
+}
+.search{
+    text-align: center;
+    margin-top:40px;
+   }
+.main-content-header{
+     border-top:2px solid #fff;
+}
+h2{
+    padding:10px;
+    text-shadow:  #000 0px 0px 6px,   #000 0px 0px 6px,   #000 0px 0px 6px;
+}
+h3{
+    text-align: center;
+    font-size: 2.3rem;
+    transition: all 0.5s;
+    padding:10px;
+    color: rgb(253, 253, 108);
+    text-shadow:  #000 0px 0px 6px,   #000 0px 0px 6px,   #000 0px 0px 6px;
+}
+h3:hover{
+    transform: scale(1.05);
+    color: red;
+}
+.para{
+    margin-top: 35px;
+    position: relative;
+    padding: 10px 60px;
+}
+p{
+    text-align: justify;
+    font-size: 2rem;
+    padding: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-shadow:  rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px;
+}
+.para:before,
+.para:after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.5s;
+}
+.para:before{
+    top: 3%;
+    left: 3%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
+.para:after{
+    bottom: 3%;
+    right: 3%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.para:hover:before,
+.para:hover:after{
+    opacity: 1;
+    width: 93.9%;
+    height: 93.5%;
+    border-radius: 5px;
+}
